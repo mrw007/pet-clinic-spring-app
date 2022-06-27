@@ -16,7 +16,7 @@
 
 	<groupId>mrw007.springframework</groupId>
 	<artifactId>pet-clinic-spring-app</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>pet-clinic-spring-app</name>
 	<description>pet-clinic-spring-app</description>
 
@@ -52,6 +52,6 @@
 	<scm>
 		<url>https://github.com/mrw007/pet-clinic-spring-app</url>
 		<connection>scm:git:https://github.com/mrw007/pet-clinic-spring-app.git</connection>
-	  <tag>HEAD</tag>
+	  <tag>pet-clinic-spring-app-0.0.2</tag>
   </scm>
 </project>
