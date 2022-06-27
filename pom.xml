@@ -50,8 +50,7 @@
 	</build>
 
 	<scm>
-		<developerConnection>
-			scm:git:git@github.com:mrw007/pet-clinic-spring-app.git
-		</developerConnection>
+		<url>https://github.com/mrw007/pet-clinic-spring-app</url>
+		<connection>scm:git:https://github.com/mrw007/pet-clinic-spring-app.git</connection>
 	</scm>
 </project>
