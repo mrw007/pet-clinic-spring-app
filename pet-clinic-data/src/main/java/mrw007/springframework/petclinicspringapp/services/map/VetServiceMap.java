@@ -2,10 +2,11 @@ package mrw007.springframework.petclinicspringapp.services.map;
 
 import mrw007.springframework.petclinicspringapp.model.Vet;
 import mrw007.springframework.petclinicspringapp.services.CrudService;
+import mrw007.springframework.petclinicspringapp.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
