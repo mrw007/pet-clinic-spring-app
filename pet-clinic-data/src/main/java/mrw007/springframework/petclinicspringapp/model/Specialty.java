@@ -1,6 +1,6 @@
 package mrw007.springframework.petclinicspringapp.model;
 
-public class Speciality extends BaseEntity {
+public class Specialty extends BaseEntity {
 
     private String description;
 
