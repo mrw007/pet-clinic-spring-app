@@ -43,6 +43,6 @@ public class VisitSDJpaService implements VisitService {
 
     @Override
     public void deleteById(Long aLong) {
-        visitRepository.findById(aLong);
+        visitRepository.deleteById(aLong);
     }
 }
