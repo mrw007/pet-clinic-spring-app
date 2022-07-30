@@ -37,4 +37,9 @@ public class Pet extends BaseEntity {
         this.birthDate = birthDate;
         this.visits = visits;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
